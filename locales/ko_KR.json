@@ -1,0 +1,104 @@
+{
+  "ui": {
+    "layout": {
+      "title": {
+        "label": "페이지 선택",
+        "js_page": "JS 페이지",
+        "html_page": "HTML 페이지",
+        "script_tags": "스크립트 태그",
+        "node_modules": "노드 모듈",
+        "js_schedule": "JS 스케쥴",
+        "resolution_list": "해상도 리스트",
+        "color_picker": "색상 선택기",
+        "jspg_documentation": "JSPG 문서",
+        "setting": "설정"
+      },
+      "leftDrawer": {
+        "js_page": {
+          "run": "실행",
+          "prettier_code": "코드 정리",
+          "js_type": "JS 타입",
+          "new_js": "새 자바스크립트"
+        },
+        "script_tags": {
+          "read_source_path": "소스 경로 읽기",
+          "remove_all": "전부 제거하기",
+          "write_into_html": "HTML 파일에 작성"
+
+        },
+        "html_page": {
+          "prettier_html": "HTML 정리",
+          "new_html": "새 HTML 페이지"
+        },
+        "common": {
+          "save": "저장",
+          "save_as": "다른 이름으로 저장",
+          "open": "불러오기",
+          "file_path": "파일 경로",
+          "read_html_path": "HTML 경로 읽기",
+          "web_page_url": "웹페이지 URL",
+          "load_web_page": "웹페이지 로드",
+          "show_page": "웹페이지 보기",
+          "reload": "웹페이지 재로드",
+          "reload_all": "전부 재로드",
+          "dev_tools": "개발자 도구 열기"
+        }
+      },
+      "footer": {
+        "dark_mode": "다크 모드",
+        "light_mode": "라이트 모드",
+        "name": "Geargom"
+      }
+    },
+    "page": {
+      "resolution_list": {
+        "ratio_sample": "비율 샘플",
+        "width_ratio": "넓이 비율",
+        "height_ratio": "높이 비율",
+        "max_height": "해상도 리스트 최대 높이 값",
+        "resolution_list": "해상도 리스트"
+      },
+      "script_tags": {
+        "autocomplete": "스크립트 타입 자동완성"
+      },
+      "jspg_documentation": {
+        "title": "JS 페이지",
+        "web_page": [
+          "웹페이지 자바스크립트",
+          "웹페이지 버젼은 다른 웹페이지에서 자바스크립트를 추가하듯 두가지 모드(type)를 지원합니다. - text/javascript 그리고 module.",
+          "jspgLib API",
+          "saveFilePF(파일명, 데이터, 함수)",
+          "데이터가 파일명에 저장된 이후에 함수를 실행합니다. 함수 - arguments[2]는 콜백함수가 아닙니다.",
+          "openFilePF(파일명, 함수(데이터))",
+          "데이터가 파일명으로부터 로드된 이후에 함수를 실행합니다. 함수 - arguments[1]는 콜백함수가 아닙니다. 함수의 첫번째 전달값은 데이터입니다.",
+          "printConsole()",
+          "JS 페이지의 UI 콘솔에 콘솔 메세지를 프린트 합니다. 마지막에 한번만 호출하면 됩니다."
+        ],
+        "node_js": [
+          "Node.js",
+          "JS 페이지는 Node.js를 아직 지원하지 않습니다. 대신 실험적 기능인 Node VM을 사용해보세요."
+        ],
+        "node_vm": [
+          "Node VM (실험적 기능)",
+          "Node VM 모드는 vm2 패키지를 기반인 실험적 기능입니다. 몇몇의 Node.js의 기본 모듈들을 사용할 수 있습니다."
+        ],
+        "examples": [
+          "예시:"
+        ],
+        "translation": [
+          "JSPG 번역",
+          "JS 페이지의 UI 번역을 도와주세요. 모든 번역은 깃헙 저장소에서 누구나 열람해서 변경할 수 있도록 되어있습니다."
+        ]
+      },
+      "setting": {
+        "language": "언어"
+      }
+    },
+    "warn": {
+      "not_supported": "지금은 지원하지 않는 기능입니다. 업데이트나 릴리즈를 기다려주세요."
+    },
+    "language": "한국어"
+  },
+  "system": {
+  }
+}

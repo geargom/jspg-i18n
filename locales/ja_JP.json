@@ -1,0 +1,103 @@
+{
+  "ui": {
+    "layout": {
+      "title": {
+        "label": "ページの選択",
+        "js_page": "JSページ",
+        "html_page": "HTML ページ",
+        "script_tags": "スクリプトタグ",
+        "node_modules": "ノードモジュール",
+        "js_schedule": "JSスケジュール",
+        "resolution_list": "解像度リスト",
+        "color_picker": "カラーピッカー",
+        "jspg_documentation": "JSPG文書",
+        "setting": "設定"
+      },
+      "leftDrawer": {
+        "js_page": {
+          "run": "実行",
+          "prettier_code": "クリーンアップコード",
+          "js_type": "JSタイプ",
+          "new_js": "新しいjavascript"
+        },
+        "script_tags": {
+          "read_source_path": "ソースパスロード",
+          "remove_all": "全部デリート",
+          "write_into_html": "HTMLファイルに作成"
+        },
+        "html_page": {
+          "prettier_html": "クリーンアップHTML",
+          "new_html": "新しいHTMLページ"
+        },
+        "common": {
+          "save": "セーブ",
+          "save_as": "別の名前でセーブ",
+          "open": "ロード",
+          "file_path": "ファイルパス",
+          "read_html_path": "HTMLパスロード",
+          "web_page_url": "ウェブページURL",
+          "load_web_page": "ウェブページロード",
+          "show_page": "ウェブページ表示",
+          "reload": "ウェブページ再ロード",
+          "reload_all": "全部再ロード",
+          "dev_tools": "デヴツールを開く"
+        }
+      },
+      "footer": {
+        "dark_mode": "ダークモード",
+        "light_mode": "ライトモード",
+        "name": "Geargom"
+      }
+    },
+    "page": {
+      "resolution_list": {
+        "ratio_sample": "比率サンプル",
+        "width_ratio": "広さの割合",
+        "height_ratio": "高さの比",
+        "max_height": "最大高さ",
+        "resolution_list": "解像度リスト"
+      },
+      "script_tags": {
+        "autocomplete": "スクリプトタイプのオートコンプリート"
+      },
+      "jspg_documentation": {
+        "title": "JSページ",
+        "web_page": [
+          "ウェブページJavascript",
+          "ウェブページのバージョンは、他のウェブページように、javascriptを追加する二つのモード（type）をサポートします。 -  text / javascriptとmodule。",
+          "jspgLib API",
+          "saveFilePF(ファイル名, データ, 関数)",
+          "データがファイル名に保存された後に関数を実行します。arguments[2]の関数は、コールバック関数じゃありません。",
+          "openFilePF(ファイル名, 関数(データ))",
+          "データがファイル名からロードされた後に関数を実行します。arguments[1]の関数は、コールバック関数じゃありません。arguments[1]の関数の最初のarguments[0]は、データです。",
+          "printConsole()",
+          "JSページのUIコンソールにコンソールメッセージをプリントします。最後に一度だけ呼びます。"
+        ],
+        "node_js": [
+          "Node.js",
+          "JSページはNode.jsをまだサポートしていません。代わりに実験的機能であるNode VMを使用してみてください。"
+        ],
+        "node_vm": [
+          "Node VM(実験機能)",
+          "Node VMモードでは、vm2パッケージをベースである実験機能です。いくつかのNode.jsの基本的なモジュールを使用することができます。"
+        ],
+        "examples": [
+          "例:"
+        ],
+        "translation": [
+          "JSPG翻訳",
+          "JSページのUIの翻訳を手伝ってください。すべての翻訳はGithubストレージで誰でも閲覧して変更できるようになっています。"
+        ]
+      },
+      "setting": {
+        "language": "言語"
+      }
+    },
+    "warn": {
+      "not_supported": "지금은 지원하지 않는 기능입니다. 업데이트나 릴리즈를 기다려주세요."
+    },
+    "language": "日本語"
+  },
+  "system": {
+  }
+}
