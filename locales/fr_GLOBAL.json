@@ -1,0 +1,118 @@
+{
+  "ui": {
+    "layout": {
+      "title": {
+        "label": "Sélectionner une page",
+        "js_page": "Aire de jeux JS",
+        "html_page": "Éditeur HTML",
+        "script_tags": "Gestionnaire de balises de script",
+        "node_modules": "Node Modules",
+        "js_schedule": "JS Schedule",
+        "markdown_editor": "Éditeur de démarques",
+        "resolution_list": "Calculateur de liste de résolution",
+        "color_picker": "Pipette à couleurs",
+        "allowed_domain_name_list": "Allowed Domain Name List",
+        "setting": "Paramètres"
+      },
+      "leftDrawer": {
+        "subheader":{
+          "js_editor_menu": "Menu de l'éditeur JS" ,
+          "script_tag_menu": "Menu de balise de script",
+          "html_editor_menu": "Menu de l'éditeur HTM",
+          "md_editor_menu": "Menu de l'éditeur de démarques",
+          "webpage_control_menu": "Menu de contrôle de page Web",
+          "reload_menu": "Recharger le menu"
+        },
+        "js_page": {
+          "run": "exécuter",
+          "prettier_code": "Code plus joli",
+          "js_type": "Type JS",
+          "new_js": "Nouveau JS"
+        },
+        "script_tags": {
+          "read_source_path": "Lire le chemin source",
+          "remove_all": "Supprimer toutes les balises de script",
+          "write_into_html": "Écrire dans un fichier HTML",
+          "only_same_directory": "Seulement le même répertoire"
+        },
+        "html_page": {
+          "prettier_html": "HTML plus joli",
+          "new_html": "Nouvelle page HTML"
+        },
+        "markdown_editor": {
+          "prettier_md": "Plus jolie démarque",
+          "save_as_html": "Enregistrer au format HTML",
+          "new_md": "Nouvelle démarque"
+        },
+        "common": {
+          "node_integration_on": "L'intégration des nœuds est activée",
+          "save": "Enregistrer",
+          "save_as": "Enregistrer sous",
+          "open": "Ouvrir",
+          "file_path": "Chemin du fichier",
+          "read_html_path": "Lire le chemin HTML",
+          "webpage_url": "URL de la page Web",
+          "load_webpage": "Charger la page Web",
+          "show_webpage": "Afficher la page Web",
+          "reload": "Recharger la page Web",
+          "reload_all": "Recharger toute l'application",
+          "dev_tools": "Ouvrir les outils de développement",
+          "node_integration": "Intégration de nœuds"
+        },
+        "caption": {
+          "run": "Touche de raccourci: ctrl + r\r\nExécuter le code Javascript.",
+          "prettier": "Touche de raccourci: ctrl + p\r\nFormater le texte dans l'éditeur.\r\nFormat HTML, code Javascript.",
+          "js_type": "Choisissez le type de Javascript.\r\nPour le texte/javascript et le module, Javascript s'exécute sur la page Web.\r\nPour Node VM, Javascript s'exécute dans Node VM.",
+          "save":"Touche de raccourci: ctrl + s\r\n",
+          "save_as": "Touche de raccourci: ctrl + shift + s",
+          "open": "Touche de raccourci: ctrl + o",
+          "new": "Touche de raccourci: ctrl + n",
+          "save_as_html": "Touche de raccourci: ctrl + shift + h",
+          "read_html_path": "Lire le nom de fichier HTML pour le charger en tant que page Web.",
+          "load_webpage": "Charger une page Web à partir d'une URL.",
+          "show_webpage": "Touche de raccourci: ctrl + w",
+          "dev_tools": "Touche de raccourci: F12",
+          "node_integration": "Soyez prudent lorsque vous utilisez l'intégration de nœuds avec une page Web non fiable.\r\nLe propriétaire de la page Web peut accéder à votre système.",
+          "reload_webpage": "Touche de raccourci: F5",
+          "reload_app": "Recharger toute l'application.\r\nNe l'utilisez que lorsque la page JS ne fonctionne pas ou s'est arrêtée.",
+          "console": "Touche de raccourci: ctrl + j\r\nOuvrez la fenêtre de la console."
+        }
+      },
+      "footer": {
+        "dark_mode": "Mode sombre",
+        "light_mode": "Mode lumière",
+        "name": "Geargom"
+      }
+    },
+    "page": {
+      "eula": {
+        "accept": "Démarrer"
+      },
+      "resolution_list": {
+        "ratio_sample": "Échantillon de rapport",
+        "width_ratio": "Rapport de largeur",
+        "height_ratio": "Rapport de hauteur",
+        "max_height": "Liste de hauteur maximale de résolution",
+        "resolution_list": "Liste de résolution"
+      },
+      "script_tags": {
+        "autocomplete": "Type de script de saisie semi-automatique"
+      },
+      "setting": {
+        "language": "Langue",
+        "home": "Page par défaut"
+      }
+    },
+    "warn": {
+      "not_supported": "PAS PRIS EN CHARGE POUR LE MAINTENANT. ATTENDRE LA MISE À JOUR OU LA PUBLICATION."
+    },
+    "language": "français"
+  },
+  "system": {
+    "node_integration_message": {
+      "title":"Avertissement d'intégration de nœud",
+      "message": "Veuillez ne pas charger de page Web non fiable.\nLe propriétaire de la page Web peut accéder à votre système.\nLa page Web sera définie sur notre page par défaut pour votre sécurité.\nVous êtes responsable du chargement d'une page Web.",
+      "ok": "OK"
+    }
+  }
+}

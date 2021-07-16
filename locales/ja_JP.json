@@ -3,17 +3,26 @@
     "layout": {
       "title": {
         "label": "ページの選択",
-        "js_page": "JSページ",
-        "html_page": "HTML ページ",
-        "script_tags": "スクリプトタグ",
+        "js_page": "JSプレイグラウンド",
+        "html_page": "HTMLエディタ",
+        "script_tags": "スクリプトタグマネージャー",
         "node_modules": "ノードモジュール",
         "js_schedule": "JSスケジュール",
-        "resolution_list": "解像度リスト",
+        "markdown_editor": "マークダウンエディタ",
+        "resolution_list": "解像度リストカルキュレーター",
         "color_picker": "カラーピッカー",
-        "jspg_documentation": "JSPG文書",
+        "allowed_domain_name_list": "ドメインネーム許可リスト",
         "setting": "設定"
       },
       "leftDrawer": {
+        "subheader":{
+          "js_editor_menu": "JSエディタメニュー",
+          "script_tag_menu": "スクリプトタグメニュー",
+          "html_editor_menu": "HTMLエディタメニュー",
+          "md_editor_menu": "マークダウンエディタメニュー",
+          "webpage_control_menu": "ウェブページコントロールメニュー",
+          "reload_menu": "再ロードメニュー"
+        },
         "js_page": {
           "run": "実行",
           "prettier_code": "クリーンアップコード",
@@ -23,24 +32,50 @@
         "script_tags": {
           "read_source_path": "ソースパスロード",
           "remove_all": "全部デリート",
-          "write_into_html": "HTMLファイルに作成"
+          "write_into_html": "HTMLファイルに作成",
+          "only_same_directory": "同じフォルダのみ"
         },
         "html_page": {
           "prettier_html": "クリーンアップHTML",
           "new_html": "新しいHTMLページ"
         },
+        "markdown_editor": {
+          "prettier_md": "クリーンマークダウン",
+          "save_as_html": "HTMLでセーブ",
+          "new_md": "新しいマークダウン"
+        },
         "common": {
+          "node_integration_on": "ノード統合On",
           "save": "セーブ",
           "save_as": "別の名前でセーブ",
           "open": "ロード",
           "file_path": "ファイルパス",
           "read_html_path": "HTMLパスロード",
-          "web_page_url": "ウェブページURL",
-          "load_web_page": "ウェブページロード",
-          "show_page": "ウェブページ表示",
+          "webpage_url": "ウェブページURL",
+          "load_webpage": "ウェブページロード",
+          "show_webpage": "ウェブページ表示",
           "reload": "ウェブページ再ロード",
-          "reload_all": "全部再ロード",
-          "dev_tools": "デヴツールを開く"
+          "reload_all": "App再ロード",
+          "dev_tools": "デヴツールを開く",
+          "node_integration": "ノード統合"
+        },
+        "caption": {
+          "run": "ショートカット: ctrl + r\r\nJavascriptコードを実行します。",
+          "prettier": "ショートカット: ctrl + p\r\nエディタのテキストをフォーマットします。\r\nHTML、Javascriptコードフォーマット。",
+          "js_type": "JavaScriptのタイプを指定します。\r\ntext/javascriptとmoduleは、コードをWebページで実行します。\r\nNode VMは、コードをNode vmで実行します。",
+          "save":"ショートカット: ctrl + s\r\n",
+          "save_as": "ショートカット: ctrl + shift + s",
+          "open": "ショートカット: ctrl + o",
+          "new": "ショートカット: ctrl + n",
+          "save_as_html": "ショートカット: ctrl + shift + h",
+          "read_html_path": "ウェブページとしてロードするためのHTMLファイル名を読み取ります。",
+          "load_webpage": "URLからウェブページをロードします。",
+          "show_webpage": "ショートカット: ctrl + w",
+          "dev_tools": "ショートカット: F12",
+          "node_integration": "信頼できないウェブページとのノード統合の使用には注意してください。\r\nウェブページの所有者はユーザーのシステムにアクセスできます。",
+          "reload_webpage": "ショートカット: F5",
+          "reload_app": "アプリ全体をリロードします。\r\nJSページが機能していないか停止している場合にのみ使用してください。",
+          "console": "ショートカット: ctrl + j\r\nコンソールウィンドウを開きます。"
         }
       },
       "footer": {
@@ -50,6 +85,9 @@
       }
     },
     "page": {
+      "eula": {
+        "accept": "スタート"
+      },
       "resolution_list": {
         "ratio_sample": "比率サンプル",
         "width_ratio": "広さの割合",
@@ -60,44 +98,21 @@
       "script_tags": {
         "autocomplete": "スクリプトタイプのオートコンプリート"
       },
-      "jspg_documentation": {
-        "title": "JSページ",
-        "web_page": [
-          "ウェブページJavascript",
-          "ウェブページのバージョンは、他のウェブページように、javascriptを追加する二つのモード（type）をサポートします。 -  text / javascriptとmodule。",
-          "jspgLib API",
-          "saveFilePF(ファイル名, データ, 関数)",
-          "データがファイル名に保存された後に関数を実行します。arguments[2]の関数は、コールバック関数じゃありません。",
-          "openFilePF(ファイル名, 関数(データ))",
-          "データがファイル名からロードされた後に関数を実行します。arguments[1]の関数は、コールバック関数じゃありません。arguments[1]の関数の最初のarguments[0]は、データです。",
-          "printConsole()",
-          "JSページのUIコンソールにコンソールメッセージをプリントします。最後に一度だけ呼びます。"
-        ],
-        "node_js": [
-          "Node.js",
-          "JSページはNode.jsをまだサポートしていません。代わりに実験的機能であるNode VMを使用してみてください。"
-        ],
-        "node_vm": [
-          "Node VM(実験機能)",
-          "Node VMモードでは、vm2パッケージをベースである実験機能です。いくつかのNode.jsの基本的なモジュールを使用することができます。"
-        ],
-        "examples": [
-          "例:"
-        ],
-        "translation": [
-          "JSPG翻訳",
-          "JSページのUIの翻訳を手伝ってください。すべての翻訳はGithubストレージで誰でも閲覧して変更できるようになっています。"
-        ]
-      },
       "setting": {
-        "language": "言語"
+        "language": "言語",
+        "home": "デフォルトページ"
       }
     },
     "warn": {
-      "not_supported": "지금은 지원하지 않는 기능입니다. 업데이트나 릴리즈를 기다려주세요."
+      "not_supported": "今はサポートしていない機能です。アップデートやリリースを待ってください。"
     },
     "language": "日本語"
   },
   "system": {
+    "node_integration_message": {
+      "title":"ノード統合警告",
+      "message": "信頼するウェブページのみ、ロードしてください。\nウェブサイトの所有者があなたのファイルシステムにアクセスすることができます。\n安全のために、ウェブページは、空白のページに設定されます。\nウェブページロードはあなたに責任があります。",
+      "ok": "確認"
+    }
   }
 }

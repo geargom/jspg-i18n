@@ -1,0 +1,118 @@
+{
+  "ui": {
+    "layout": {
+      "title": {
+        "label": "Select Page",
+        "js_page": "JS Playground",
+        "html_page": "HTML Editor",
+        "script_tags": "Script Tag Manager",
+        "node_modules": "Node Modules",
+        "js_schedule": "JS Schedule",
+        "markdown_editor": "Markdown Editor",
+        "resolution_list": "Resolution List Calculator",
+        "color_picker": "Color Picker",
+        "allowed_domain_name_list": "Allowed Domain Name List",
+        "setting": "Settings"
+      },
+      "leftDrawer": {
+        "subheader":{
+          "js_editor_menu": "JS Editor Menu" ,
+          "script_tag_menu": "Script Tag Menu",
+          "html_editor_menu": "HTML Editor Menu",
+          "md_editor_menu": "Markdown Editor Menu",
+          "webpage_control_menu": "Webpage Control Menu",
+          "reload_menu": "Reload Menu"
+        },
+        "js_page": {
+          "run": "Run",
+          "prettier_code": "Prettier code",
+          "js_type": "JS type",
+          "new_js": "New JS"
+        },
+        "script_tags": {
+          "read_source_path": "Read source path",
+          "remove_all": "Remove all script tags",
+          "write_into_html": "Write into HTML file",
+          "only_same_directory": "Only same directory"
+        },
+        "html_page": {
+          "prettier_html": "Prettier HTML",
+          "new_html": "New HTML page"
+        },
+        "markdown_editor": {
+          "prettier_md": "Prettier Markdown",
+          "save_as_html": "Save as HTML",
+          "new_md": "New Markdown"
+        },
+        "common": {
+          "node_integration_on": "Node integration is on",
+          "save": "Save",
+          "save_as": "Save as",
+          "open": "Open",
+          "file_path": "File path",
+          "read_html_path": "Read HTML path",
+          "webpage_url": "Webpage url",
+          "load_webpage": "Load webpage",
+          "show_webpage": "Show webpage",
+          "reload": "Reload webpage",
+          "reload_all": "Reload whole App",
+          "dev_tools": "Open Dev Tools",
+          "node_integration": "Node Integration"
+        },
+        "caption": {
+          "run": "Shortcut: ctrl + r\r\nExecute Javascript code.",
+          "prettier": "Shortcut: ctrl + p\r\nFormat text in the editor.\r\nFormat HTML, Javascript code.",
+          "js_type": "Choose type of Javascript.\r\nFor text/javascript and module, Javascript runs on webpage.\r\nFor Node VM, Javascript runs in Node VM.",
+          "save":"Shortcut: ctrl + s\r\n",
+          "save_as": "Shortcut: ctrl + shift + s",
+          "open": "Shortcut: ctrl + o",
+          "new": "Shortcut: ctrl + n",
+          "save_as_html": "Shortcut: ctrl + shift + h",
+          "read_html_path": "Read HTML filename for loading it as a webpage.",
+          "load_webpage": "Load a webpage from url.",
+          "show_webpage": "Shortcut: ctrl + w",
+          "dev_tools": "Shortcut: F12",
+          "node_integration": "Be careful with using node integration with any untrusted webpage.\r\nThe webpage owner can access your system.",
+          "reload_webpage": "Shortcut: F5",
+          "reload_app": "Reload whole app.\r\nOnly use it when JS Page is not working or stopped.",
+          "console": "Shortcut: ctrl + j\r\nOpen console window."
+        }
+      },
+      "footer": {
+        "dark_mode": "Dark Mode",
+        "light_mode": "Light Mode",
+        "name": "Geargom"
+      }
+    },
+    "page": {
+      "eula": {
+        "accept": "Start"
+      },
+      "resolution_list": {
+        "ratio_sample": "Ratio Sample",
+        "width_ratio": "Width Ratio",
+        "height_ratio": "Height Ratio",
+        "max_height": "Max Height of Resolution List",
+        "resolution_list": "Resolution List"
+      },
+      "script_tags": {
+        "autocomplete": "Autocomplete script type"
+      },
+      "setting": {
+        "language": "Language",
+        "home": "Default Page"
+      }
+    },
+    "warn": {
+      "not_supported": "NOT SUPPORTED FOR NOW. WAIT FOR UPDATE OR RELEASE."
+    },
+    "language": "English"
+  },
+  "system": {
+    "node_integration_message": {
+      "title":"Node integration warning",
+      "message": "Please do not load untrusted webpage.\nThe webpage owner can access your system.\nThe webpage will be set to our default page for your safety.\nYou are responsible for loading a webpage.",
+      "ok": "OK"
+    }
+  }
+}
