@@ -1,0 +1,118 @@
+{
+  "ui": {
+    "layout": {
+      "title": {
+        "label": "選擇頁面",
+        "js_page": "JS遊樂場",
+        "html_page": "HTML 編輯器",
+        "script_tags": "腳本標籤管理器",
+        "node_modules": "節點模塊",
+        "js_schedule": "JS Schedule",
+        "markdown_editor": "降價編輯器",
+        "resolution_list": "分辨率列表計算器",
+        "color_picker": "顏色選擇器",
+        "allowed_domain_name_list": "Allowed Domain Name List",
+        "setting": "設置"
+      },
+      "leftDrawer": {
+        "subheader":{
+          "js_editor_menu": "JS 編輯器菜單" ,
+          "script_tag_menu": "腳本標籤菜單",
+          "html_editor_menu": "HTML 編輯器菜單",
+          "md_editor_menu": "Markdown 編輯器菜單",
+          "webpage_control_menu": "網頁控制菜單",
+          "reload_menu": "重新加載菜單"
+        },
+        "js_page": {
+          "run": "執行",
+          "prettier_code": "更漂亮的代碼",
+          "js_type": "JS型",
+          "new_js": "新JS"
+        },
+        "script_tags": {
+          "read_source_path": "讀取源路徑",
+          "remove_all": "刪除所有腳本標籤",
+          "write_into_html": "寫入 HTML 文件",
+          "only_same_directory": "只有同一個目錄"
+        },
+        "html_page": {
+          "prettier_html": "更漂亮的 HTML",
+          "new_html": "新建 HTML 頁面"
+        },
+        "markdown_editor": {
+          "prettier_md": "更漂亮的降價",
+          "save_as_html": "另存為 HTML",
+          "new_md": "新降價"
+        },
+        "common": {
+          "node_integration_on": "節點集成已開啟",
+          "save": "保存",
+          "save_as": "另存為",
+          "open": "打開",
+          "file_path": "文件路徑",
+          "read_html_path": "讀取 HTML 路徑",
+          "webpage_url": "網頁網址",
+          "load_webpage": "加載網頁",
+          "show_webpage": "顯示網頁",
+          "reload": "重新加載網頁",
+          "reload_all": "重新加載整個應用程序",
+          "dev_tools": "打開開發工具",
+          "node_integration": "節點集成"
+        },
+        "caption": {
+          "run": "快捷鍵: ctrl + r\r\n執行Javascript代碼.",
+          "prettier": "快捷鍵: ctrl + p\r\n在編輯器中格式化文本.\r\n格式化 HTML、Javascript 代碼.",
+          "js_type": "選擇 Javascript 類型.\r\n對於 text/javascript 和模塊，Javascript 在網頁上運行.\r\n對於 Node VM，Javascript 在 Node VM 中運行.",
+          "save":"快捷鍵: ctrl + s\r\n",
+          "save_as": "快捷鍵: ctrl + shift + s",
+          "open": "快捷鍵: ctrl + o",
+          "new": "快捷鍵: ctrl + n",
+          "save_as_html": "快捷鍵: ctrl + shift + h",
+          "read_html_path": "讀取 HTML 文件名以將其作為網頁加載.",
+          "load_webpage": "從 url 加載網頁.",
+          "show_webpage": "快捷鍵: ctrl + w",
+          "dev_tools": "快捷鍵: F12",
+          "node_integration": "在任何不受信任的網頁上使用節點集成時要小心.\r\n網頁所有者可以訪問您的系統.",
+          "reload_webpage": "快捷鍵: F5",
+          "reload_app": "重新加載整個應用程序.\r\n僅在 JS 頁面不工作或停止時使用它.",
+          "console": "快捷鍵: ctrl + j\r\n打開控制台窗口."
+        }
+      },
+      "footer": {
+        "dark_mode": "黑暗模式",
+        "light_mode": "燈光模式",
+        "name": "Geargom"
+      }
+    },
+    "page": {
+      "eula": {
+        "accept": "開始"
+      },
+      "resolution_list": {
+        "ratio_sample": "比率樣本",
+        "width_ratio": "寬度比",
+        "height_ratio": "身高比",
+        "max_height": "分辨率列表的最大高度",
+        "resolution_list": "解析列表"
+      },
+      "script_tags": {
+        "autocomplete": "自動完成腳本類型"
+      },
+      "setting": {
+        "language": "語",
+        "home": "默認頁面"
+      }
+    },
+    "warn": {
+      "not_supported": "暫時不支持.等待更新或發布."
+    },
+    "language": "繁体字"
+  },
+  "system": {
+    "node_integration_message": {
+      "title":"節點集成警告",
+      "message": "請不要加載不受信任的網頁.\n網頁所有者可以訪問您的系統.\n為了您的安全，該網頁將設置為我們的默認頁面.\n您負責加載網頁.",
+      "ok": "OK"
+    }
+  }
+}
