@@ -9,7 +9,7 @@
         "node_modules": "Node 模块",
         "js_schedule": "JS 定时任务",
         "markdown_editor": "Markdown 编辑器",
-        "resolution_list": "分辨率列表",
+        "resolution_list": "分辨率计算器",
         "color_picker": "颜色选择器",
         "allowed_domain_name_list": "信任域(名)列表",
         "setting": "设置"
@@ -27,13 +27,13 @@
           "run": "运行",
           "prettier_code": "格式化代码",
           "js_type": "JS 类型",
-          "new_js": "新建 JS"
+          "new_js": "新建 JS 脚本"
         },
         "script_tags": {
           "read_source_path": "读取源路径",
-          "remove_all": "全部删除",
+          "remove_all": "删除所有脚本标签",
           "write_into_html": "写入 HTML 文件",
-          "only_same_directory": "相同路径"
+          "only_same_directory": "相同目录"
         },
         "html_page": {
           "prettier_html": "格式化 HTML",
@@ -51,10 +51,10 @@
           "open": "打开",
           "file_path": "文件路径",
           "read_html_path": "读取 HTML 路径",
-          "webpage_url": "网页网址",
+          "webpage_url": "网页地址",
           "load_webpage": "加载网页",
           "show_webpage": "显示网页",
-          "reload": "重新加载网页",
+          "reload": "刷新网页",
           "reload_all": "全部重新加载",
           "dev_tools": "开发者工具",
           "node_integration": "Node 集成"
@@ -89,14 +89,14 @@
         "accept": "开始"
       },
       "resolution_list": {
-        "ratio_sample": "预置比例",
+        "ratio_sample": "屏幕宽高比",
         "width_ratio": "宽度比",
         "height_ratio": "高度比",
-        "max_height": "分辨率列表的最大高度",
+        "max_height": "分辨率高度最大值",
         "resolution_list": "分辨率列表"
       },
       "script_tags": {
-        "autocomplete": "自动补全"
+        "autocomplete": "自动识别/补全脚本类型"
       },
       "setting": {
         "language": "语言",
